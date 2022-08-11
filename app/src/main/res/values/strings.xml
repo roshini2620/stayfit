@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">StayFit</string>
-    <string name="title">StayFit</string>
+    <string name="app_name">LiveFit</string>
+    <string name="title">LiveFit</string>
     <string name="slogan">No matter what you are whether you are at home, or in the office, or at the beach, we will  keep you fit.</string>
     <string name="signup">SIGN UP</string>
     <string name="signin">SIGN IN</string>
@@ -8,12 +8,14 @@
     <string name="hint2">Age</string>
     <string name="hint3">Gender (F/M)</string>
     <string name="hint4">Password</string>
-    <string name="physical">Physical</string>
+    <string name="physical">LiveFit</string>
     <string name="todo">TODO</string>
     <string name="exer">Exercise</string>
     <string name="food">Food</string>
     <string name="work">Workout</string>
     <string name="bmi">BMI</string>
+    <string name="caloriecal">Calculate</string>
+    <string name="visual">Visual</string>
     <string name="about">About</string>
     <string name="title_activity_workout_layout">WorkoutLayout</string>
     <string name="seven">7 Minutes Workout</string>
@@ -50,5 +52,5 @@
     <string name="bmical">BMI CALCULATOR</string>
 
 
-    <string name="intro3">Each person is different. The amount of calories needed depends on age, gender, height, weight, goals, body composition and metabolic rate.  You can estimate the calories needed to maintain your body weight by using the feature below.</string>
+    <string name="intro3">Our body needs adequate calories and protein to supply the body with energy.You can estimate the calories needed to maintain your body weight by using the feature below.</string>
 </resources>

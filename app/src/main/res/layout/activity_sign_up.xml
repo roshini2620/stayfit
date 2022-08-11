@@ -5,7 +5,7 @@
     android:id="@+id/ConstraintLayoutS"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/signupp"
+    android:background="@drawable/bg5"
     tools:context=".Signup">
 
     <com.rengwuxian.materialedittext.MaterialEditText
@@ -22,9 +22,9 @@
         app:layout_constraintBottom_toTopOf="@+id/editAge"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:met_baseColor="@color/white"
+        app:met_baseColor="@color/black"
         app:met_floatingLabel="highlight"
-        app:met_primaryColor="@color/white"
+        app:met_primaryColor="@color/black"
         app:met_singleLineEllipsis="true" />
 
     <com.rengwuxian.materialedittext.MaterialEditText
@@ -37,14 +37,14 @@
         android:hint="@string/hint2"
         android:inputType="number"
         android:textColor="@color/black"
-        android:textColorHint="@android:color/white"
+        android:textColorHint="@android:color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/editGender"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:met_baseColor="@color/white"
+        app:met_baseColor="@color/black"
         app:met_floatingLabel="highlight"
-        app:met_primaryColor="@color/white"
+        app:met_primaryColor="@color/black"
         app:met_singleLineEllipsis="true" />
 
     <com.rengwuxian.materialedittext.MaterialEditText
@@ -56,14 +56,14 @@
         android:layout_marginBottom="8dp"
         android:hint="@string/hint3"
         android:textColor="@color/black"
-        android:textColorHint="@android:color/white"
+        android:textColorHint="@android:color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/editPassword"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:met_baseColor="@color/white"
+        app:met_baseColor="@color/black"
         app:met_floatingLabel="highlight"
-        app:met_primaryColor="@color/white"
+        app:met_primaryColor="@color/black"
         app:met_singleLineEllipsis="true" />
 
     <com.rengwuxian.materialedittext.MaterialEditText
@@ -76,21 +76,21 @@
         android:hint="@string/hint4"
         android:inputType="textPassword"
         android:textColor="@color/black"
-        android:textColorHint="@android:color/white"
+        android:textColorHint="@android:color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/btnSignUp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:met_baseColor="@color/white"
+        app:met_baseColor="@color/black"
         app:met_floatingLabel="highlight"
-        app:met_primaryColor="@color/white"
+        app:met_primaryColor="@color/black"
         app:met_singleLineEllipsis="true" />
 
     <Button
         android:id="@+id/btnSignUp"
         android:layout_width="130dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="59dp"
+        android:layout_marginBottom="79dp"
         android:background="@drawable/roundb"
         android:gravity="center"
         android:text="@string/signup"
@@ -106,10 +106,10 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="34dp"
+        android:layout_marginBottom="14dp"
         android:gravity="center"
         android:text="SignUp"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/editUsername"

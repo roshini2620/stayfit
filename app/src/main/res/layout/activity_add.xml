@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg1"
+    android:background="@drawable/bg5"
     android:orientation="vertical"
     tools:context=".Add">
 
@@ -18,8 +18,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="96dp"
-            android:text="You can add food item along with its measure and calorie!"
+            android:layout_marginTop="140dp"
+            android:text="Enter the food name along with measure and calories to add"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="20sp"
@@ -38,6 +38,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="44dp"
             android:hint="@string/food"
+            android:textColor="@color/black"
             android:textSize="22sp"
             app:layout_constraintBottom_toTopOf="@+id/input3"
             app:layout_constraintEnd_toEndOf="parent"

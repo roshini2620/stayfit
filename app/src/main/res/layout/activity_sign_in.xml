@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/loginp"
+    android:background="@drawable/bg5"
+    android:textColor="@color/black"
     tools:context=".Signin">
 
     <com.rengwuxian.materialedittext.MaterialEditText
@@ -23,11 +24,11 @@
         android:layout_marginBottom="6dp"
         android:hint="@string/hint"
         android:textColor="@color/black"
-        android:textColorHint="@android:color/white"
+        android:textColorHint="@android:color/black"
         android:textSize="20sp"
-        app:met_baseColor="@color/white"
+        app:met_baseColor="@color/black"
         app:met_floatingLabel="highlight"
-        app:met_primaryColor="@color/white"
+        app:met_primaryColor="@color/black"
         app:met_singleLineEllipsis="true" />
 
     <com.rengwuxian.materialedittext.MaterialEditText
@@ -47,11 +48,11 @@
         android:hint="@string/hint4"
         android:inputType="textPassword"
         android:textColor="@color/black"
-        android:textColorHint="@android:color/white"
+        android:textColorHint="@android:color/black"
         android:textSize="20sp"
-        app:met_baseColor="@color/white"
+        app:met_baseColor="@color/black"
         app:met_floatingLabel="highlight"
-        app:met_primaryColor="@color/white"
+        app:met_primaryColor="@color/black"
         app:met_singleLineEllipsis="true" />
 
     <Button
@@ -87,7 +88,7 @@
         android:layout_marginRight="130dp"
         android:layout_marginBottom="49dp"
         android:text="LogIn"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:textSize="35sp"
         android:textStyle="bold" />
 

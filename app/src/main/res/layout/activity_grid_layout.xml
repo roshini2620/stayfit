@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg1"
+    android:background="@drawable/bg5"
     android:orientation="vertical"
     android:weightSum="10"
     tools:context=".GridLayout">
@@ -11,54 +11,107 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="8">
+        android:layout_weight="3">
+        <Button
+            android:id="@+id/showPopupBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end"
+            android:background="@drawable/loggg" />
 
         <TextView
             android:id="@+id/textGrid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="10dp"
             android:fontFamily="cursive"
-            android:text="@string/physical"
-            android:textColor="@color/black"
-            android:textSize="44sp"
+            android:textColor="@color/white"
+            android:textSize="50sp"
             android:textStyle="bold" />
     </RelativeLayout>
+
+
 
     <ImageButton
         android:id="@+id/image1"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="4dp"
-        android:background="@drawable/c"
+        android:background="@drawable/one"
         android:contentDescription="@string/food" />
 
     <ImageButton
         android:id="@+id/image2"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="75dp"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="4dp"
-        android:background="@drawable/wo"
+        android:background="@drawable/two"
         android:contentDescription="@string/work" />
 
     <ImageButton
         android:id="@+id/image3"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="75dp"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
-        android:background="@drawable/bm"
+        android:background="@drawable/three"
         android:contentDescription="@string/bmi" />
+
+    <ImageButton
+        android:id="@+id/image4"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/four"
+        android:contentDescription="@string/caloriecal" />
+
+    <ImageButton
+        android:id="@+id/image5"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/five"
+        android:contentDescription="@string/visual" />
+
+    <ImageButton
+        android:id="@+id/image6"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/six"
+        android:contentDescription="@string/visual" />
+    <ImageButton
+        android:id="@+id/image7"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/sevenn"
+        android:contentDescription="@string/visual" />
+
 
 </LinearLayout>

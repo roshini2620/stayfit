@@ -3,11 +3,12 @@
     package="com.example.stayfit">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>
 
     <application
         android:allowBackup="true"
         android:hardwareAccelerated="true"
-        android:icon="@mipmap/roundicon"
+        android:icon="@drawable/roundicon"
         android:label="@string/app_name"
         android:largeHeap="true"
         android:roundIcon="@mipmap/roundicon"
@@ -33,8 +34,22 @@
         <activity android:name=".BMI" />
         <activity android:name=".FullWorkout" />
         <activity android:name=".Popup" />
+        <activity android:name=".Pedometer" />
+        <activity android:name=".ApiActivity" />
+        <activity android:name=".Livechat" />
+        <activity android:name=".Main" />
+
+
         <activity android:name=".CalorieCounter" />
         <activity android:name=".Add" />
+        <activity android:name=".ReminderActivity" />
+        <receiver android:name=".AlarmBrodcast" />
+        <service
+            android:name=".service.StepListener"
+            android:enabled="true"
+            android:exported="true" />
+
+
         <activity android:name=".fw1"></activity>
         <activity android:name=".fw2"></activity>
         <activity android:name=".fw3"></activity>
@@ -63,6 +78,7 @@
         <activity android:name=".fw41"></activity>
         <activity android:name=".fw42"></activity>
         <activity android:name=".fw44"></activity>
+
     </application>
 
 </manifest>

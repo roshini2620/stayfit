@@ -5,7 +5,7 @@
     android:id="@+id/ConstraintLayoutM"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/main"
+    android:background="@drawable/bg5"
     tools:context=".MainActivity">
 
     <TextView
@@ -18,7 +18,7 @@
         android:fontFamily="cursive"
         android:gravity="center"
         android:text="@string/title"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="80sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.484"
@@ -37,7 +37,7 @@
         android:fontFamily="casual"
         android:gravity="center"
         android:text="@string/slogan"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -51,8 +51,8 @@
         android:layout_width="130dp"
         android:layout_height="60dp"
 
-        android:layout_marginStart="60dp"
-        android:layout_marginLeft="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
         android:layout_marginBottom="89dp"
         android:background="@drawable/roundb"
         android:text="@string/signup"
@@ -68,8 +68,8 @@
         android:id="@+id/btnSignIn"
         android:layout_width="130dp"
         android:layout_height="60dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginRight="60dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
         android:layout_marginBottom="89dp"
         android:background="@drawable/roundb"
         android:text="@string/signin"
